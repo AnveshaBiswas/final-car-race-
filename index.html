@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAL82D48iiYE_4EowdFBKWQoV-z3xF-sms",
+    authDomain: "multiplayer-racing-d4268.firebaseapp.com",
+    databaseURL: "https://multiplayer-racing-d4268.firebaseio.com",
+    projectId: "multiplayer-racing-d4268",
+    storageBucket: "multiplayer-racing-d4268.appspot.com",
+    messagingSenderId: "995144631258",
+    appId: "1:995144631258:web:ae886c5ec8159e9308f6e3"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="Form.js"></script>
+<script src="game.js"></script>
+<script src="player.js"></script>
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
